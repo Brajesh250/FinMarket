@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Secrets and credentials
+*.pem
+*.key
+secrets.toml
+.streamlit/secrets.toml
+
+# Data: raw downloads are reproducible from scripts/build_snapshot.py and are
+# not committed. The processed snapshot in data/snapshot/ IS committed, because
+# the published results depend on it.
+data/raw/*
+!data/raw/.gitkeep
+
+# Caches and artefacts
+.pytest_cache/
+.cache/
+*.joblib
+!models/.gitkeep
+.ipynb_checkpoints/
+.DS_Store
+
+# Logs
+*.log
+reports/run.log
