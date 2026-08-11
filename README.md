@@ -287,8 +287,8 @@ sessions — that is, the rule mostly sat in cash during a strong up-market.
 ## Running it
 
 ```bash
-git clone https://github.com/<your-username>/finmarket-ml.git
-cd finmarket-ml
+git clone https://github.com/Brajesh250/FinMarket.git
+cd FinMarket
 
 python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -361,8 +361,7 @@ finmarket-ml/
 - The universe is 39 large-cap S&P 500 names that survived to 2018, so it carries
   survivorship bias by construction.
 - No fundamental, macroeconomic or news data is used. The companion project,
-  [MarketSense AI](https://github.com/<your-username>/marketsense-ai), covers the
-  news and sentiment dimension.
+  **MarketSense AI**, covers the news and sentiment dimension.
 
 ## Future work
 
